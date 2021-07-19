@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "python-Lessonsmyenv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "./CRUD"
+    ]
+}
