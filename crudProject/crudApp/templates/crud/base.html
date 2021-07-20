@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'crud/css/bootstrap.min.css' %}">
+    <title>CRUD</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- <h2 class="text-center ">Function Based View Crud- Article</h2> -->
+</div>
+
+{% block content %}
+
+{% endblock content %}
+
+
+    <!-- javascript files -->
+    <script src="{% static '/crud/javascript/jquery.js'%}"></script>
+    <script src="{% static '/crud/javascript/popper.js'%}"></script>
+    <script src="{% static '/crud/javascript/bootstrap.min.js'%}"></script>
+    
+</body>
+</html>
