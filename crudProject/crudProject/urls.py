@@ -20,5 +20,5 @@ import crudApp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('crud/', include('crudApp.urls')),
+    path('', include('crudApp.urls')),
 ]

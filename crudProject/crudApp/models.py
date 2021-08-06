@@ -9,5 +9,7 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
-    
+        
+    def get_title_name(self):
+        return self.title
     
